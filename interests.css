@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px auto;
+    padding: 0px;
+    max-width: 800px;
+    background-color: #fff;
+    background-image: "https://pin.it/5Vy8Rrx53";
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+#interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.interest {
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.interest.selected {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#save-interests {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#save-interests:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#signupForm{
+    margin-left: 314px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.community-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.community-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.community-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.community-item button:hover {
+    background-color: #0056b3;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-btn {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+.sign-up{
+    margin-left: 400px;
+}
+
+.market{
+    margin-left: 1200px;
+}
+.mess{
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="interests.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="home.html" class="nav-btn">
+            <img src="images/home-icon.png" alt="Home" class="nav-icon">
+            <span>Home</span>
+        </a>
+        <a href="joined-communities.html" class="nav-btn">
+            <img src="images/communities-icon.png" alt="Communities" class="nav-icon">
+            <span>Communities</span>
+        </a>
+        <a href="market.html" class="nav-btn">
+            <img src="images/market-icon.png" alt="Market" class="nav-icon">
+            <span>Market</span>
+        </a>
+        <a href="account.html" class="nav-btn">
+            <img src="images/account-icon.png" alt="Account" class="nav-icon">
+            <span>Account</span>
+        </a>
+    </nav>
+
+    <header>
+        <h1>NEST</h1>
+        <h3 class="fullform">Network for Elderly Socialization and Talents</h3>
+        <button class="market" onclick="window.location.href='market.html'">Shop</button>
+        <button class="mess" onclick="window.location.href='mess.html'">Chats</button>
+    </header>
+    <main>
+        <h2>Suggested Communities</h2>
+        <div id="suggested-communities" class="community-list"></div>
+
+        <h2>Other Communities</h2>
+        <input type="text" id="search-bar" placeholder="Search for communities...">
+        <div id="other-communities" class="community-list"></div>
+    </main>
+
+    <footer>
+        <p>&copy; Presented by Pegasus</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>

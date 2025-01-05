@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <link rel="stylesheet" href="mess.css">
+</head>
+<body>
+    <div class="messenger-container">
+        <!-- User List Section -->
+        <aside class="user-list">
+            <h2>Chats</h2>
+            <ul id="userList">
+                <!-- Dynamically generated user list -->
+            </ul>
+        </aside>
+
+        <!-- Chat Section -->
+        <section class="chat-section">
+            <header class="chat-header">
+                <h2 id="chatUserName">Select a chat</h2>
+            </header>
+            <div class="chat-window" id="chatWindow">
+                <!-- Messages will appear here -->
+            </div>
+            <footer class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message...">
+                <button id="sendMessage">Send</button>
+            </footer>
+        </section>
+    </div>
+    <script src="mess.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Senior Community Hub</title>
+    <link rel="stylesheet" href="interests.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>NEST</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-form"  style="
+        background-image: url('eld.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        opacity: 0.7;
+        height: 431px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;">
+            <br>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="label1">
+                <label for="username" style="
+                margin-left: 220px;   
+                color: black; ">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" style="
+                
+                width: 250px;
+                height: 25px;
+                margin-top: 50px;" required>
+                </div>
+                <br>
+                <label for="password" style="
+                margin-left: 220px;
+                color: black;">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" style="
+            
+                width: 250px;
+                height: 25px;
+                margin-top: 10px;" required>
+                <br>
+                <button type="submit" style="
+                margin-left: 400px;
+                margin-top: 15px;">Log In</button>
+            </form>
+            <br><br><br><br>
+            <h3 style="margin-left: 60px;
+            color: black;
+            ">Don't have an account?</h3>
+            <button type="button" class="sign-up" onclick="window.location.href='signup.html'">Sign up</button>
+        </section>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>

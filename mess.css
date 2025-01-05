@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Container */
+.messenger-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* User List */
+.user-list {
+    width: 25%;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.user-list h2 {
+    padding: 15px;
+    margin: 0;
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+}
+
+.user-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.user-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.user-list .active {
+    background-color: #e6f7ff;
+}
+
+/* Chat Section */
+.chat-section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-window {
+    flex-grow: 1;
+    padding: 15px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message.sent {
+    text-align: right;
+}
+
+.message .content {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.message.sent .content {
+    background-color: #dcf8c6;
+    color: #333;
+}
+
+.message.received .content {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+/* Chat Input */
+.chat-input {
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.chat-input button {
+    padding: 10px 15px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #005bb5;
+}
